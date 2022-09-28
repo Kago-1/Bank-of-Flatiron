@@ -85,11 +85,25 @@
       "amount": -975
     },
     {
-      "date": "date",
-      "description": "description",
-      "category": "category",
-      "amount": "amount",
-      "id": 20
+      "date": "2022-09-01",
+      "description": "Dev",
+      "category": "Food",
+      "amount": "0.05",
+      "id": 13
+    },
+    {
+      "date": "2022-09-17",
+      "description": "Training",
+      "category": "Morgage",
+      "amount": "100",
+      "id": 14
+    },
+    {
+      "date": "2022-09-15",
+      "description": "Chiptolet",
+      "category": "Fooder",
+      "amount": "60",
+      "id": 15
     }
   ]
 }
