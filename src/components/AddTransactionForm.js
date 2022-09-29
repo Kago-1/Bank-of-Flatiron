@@ -7,7 +7,11 @@ function AddTransactionForm(addTransact) {
     category:"",
     amount:0
   })
-  
+  // const [date,setDate] = useState("")
+  // const [description,setDescription] = useState("")
+  // const [category,setCategory] = useState("")
+  // const [amount,setAmount] = useState("")
+  // const [add, setAdd] = useState([])
 
   function handleChange(event){
     setFormData({...formData,[event.target.name]:event.target.value})
@@ -28,7 +32,24 @@ function AddTransactionForm(addTransact) {
     // amount: formData.amount}
     )
   })
-  
+  // .then((response)=>response.json())
+  //   .then((data)=>addTransact =(data))
+  //   console.log(formData);
+  //   const data =[date, description, category, amount]
+  //   if(date&&description&&category&&amount){
+  //     setAdd((formData)=>[...formData,data])
+  //     setDate("")
+  //     setDescription("")
+  //     setCategory("")
+  //     setAmount("")
+  //   }
+  setFormData({
+    date:"",
+    description:"",
+    category:"",
+    amount:0
+
+  })
   }
    
   return (
@@ -44,7 +65,19 @@ function AddTransactionForm(addTransact) {
           Add Transaction
         </button>
       </form>
-      
+      {/* {
+        add.map((formData)=>
+        <table>
+          <tbody>
+            <tr>
+            <th>{formData.date}</th>
+            <th>{formData.description}</th>
+            <th>{formData.category}</th>
+            <th>{formData.amount}</th>
+            </tr>
+          </tbody>
+        </table>)
+      } */}
     </div>
   ); 
 }
