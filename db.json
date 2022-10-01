@@ -85,25 +85,25 @@
       "amount": -975
     },
     {
-      "date": "2022-09-01",
-      "description": "Dev",
-      "category": "Food",
-      "amount": "0.05",
-      "id": 13
+      "date": "2022-10-01",
+      "description": "Wi-Fi monthly subscription",
+      "category": "Entertainment",
+      "amount": "2000",
+      "id": 16
     },
     {
-      "date": "2022-09-17",
-      "description": "Training",
-      "category": "Morgage",
-      "amount": "100",
-      "id": 14
+      "date": "2022-10-07",
+      "description": "Pay delivery guy",
+      "category": "Home",
+      "amount": "4000",
+      "id": 17
     },
     {
-      "date": "2022-09-15",
-      "description": "Chiptolet",
-      "category": "Fooder",
-      "amount": "60",
-      "id": 15
+      "date": "2022-10-14",
+      "description": "Gym subs",
+      "category": "Entertainment",
+      "amount": "400",
+      "id": 18
     }
   ]
 }
