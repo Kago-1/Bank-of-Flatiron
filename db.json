@@ -104,6 +104,20 @@
       "category": "Entertainment",
       "amount": "400",
       "id": 18
+    },
+    {
+      "date": "2022-10-01",
+      "description": "Gym",
+      "category": "Food",
+      "amount": "40",
+      "id": 19
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": 0,
+      "id": 20
     }
   ]
 }
